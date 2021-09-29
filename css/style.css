@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(44, 1, 80);
+}
+
+.container {
+    /*border: 2px solid rgb(0, 234, 255) ;
+    height: 804px;
+    width: 804px;
+    margin: 2rem auto;*/
+    position: relative;
+}
+
+.Fuji {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.cloud1 {
+    position: absolute;
+    scale: 30%;
+    left: 1100px;
+    top: -100px;
+    animation-name: cloudleft;
+    animation-duration: 20s;
+}
+
+@keyframes cloudleft {
+    0% {left: 1100px; top: -100px;}
+    5% {left: 1080px; top: -99px;}
+    15% {left: 1040px; top: -104px;}
+    28% {left: 1020px; top: -108px;}
+    38% {left: 990px; top: -114px;}
+    50% {left: 1010px; top: -109px;}
+    60% {left: 1030px; top: -116px;}
+    70% {left: 1050px; top: -120px;}
+}
+
+.cloud2 {
+    position: absolute;
+    scale: 30%;
+    left: 200px;
+    top: -100px;
+    animation-name: cloudright;
+    animation-duration: 20s;
+}
+
+@keyframes cloudright {
+    0% {left: 200px; top: -100px;}
+}
+
+
+/*.box {
+    border: 1px solid rgb(0, 234, 255) ;
+    border-radius: 5%;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 5px;
+    top: 6px;
+    animation-name: runningBox;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}*/
+
+/*@keyframes runningBox {
+    0% {left: 0; top: 0px;}
+    25% {left: 600px; top: 0px;}
+    50% {left: 600px; top: 600px;}
+    75% {left: 0px; top: 600px;}
+    100% {left: 0px; top: 0px;}
+}*/
+
+/*@keyframes runningBox {
+    0% {left: 9px;top: 13px;}
+    5% {left: 15px;top: 23px;}
+    10% {left: 25px;top: 35px;}
+    25% {left: 35px;top: 50px;}
+    35% {left: 25px;top: 46px;}
+    45% {left: 15px;top: 35px;}
+    55% {left: 10px;top: 29px;}
+    65% {left: 8px;top: 25px;}
+    75% {left: 10px;top: 21px;}
+    85% {left: 14px;top: 23px;}
+    95% {left: 17px;top: 28px;}
+    100% {left: 20px;top: 33px;}
+}*/
