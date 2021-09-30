@@ -27,11 +27,12 @@ body {
     scale: 30%;
     left: 1100px;
     top: -100px;
-    animation-name: cloudleft;
-    animation-duration: 20s;
+    animation-name: cloudright;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
 }
 
-@keyframes cloudleft {
+@keyframes cloudright {
     0% {left: 1100px; top: -100px;}
     5% {left: 1080px; top: -99px;}
     15% {left: 1040px; top: -104px;}
@@ -40,6 +41,9 @@ body {
     50% {left: 1010px; top: -109px;}
     60% {left: 1030px; top: -116px;}
     70% {left: 1050px; top: -120px;}
+    80% {left: 1080px;top: -130px;}
+    90% {left: 1020px;top: -110px;}
+    100% {left: 1100px;top: -100px;}
 }
 
 .cloud2 {
@@ -47,12 +51,23 @@ body {
     scale: 30%;
     left: 200px;
     top: -100px;
-    animation-name: cloudright;
-    animation-duration: 20s;
+    animation-name: cloudleft;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
 }
 
-@keyframes cloudright {
+@keyframes cloudleft {
     0% {left: 200px; top: -100px;}
+    5% {left: 220px; top: -99px;}
+    15% {left: 240px; top: -104px;}
+    28% {left: 220px; top: -108px;}
+    38% {left: 180px; top: -114px;}
+    50% {left: 210px; top: -109px;}
+    60% {left: 230px; top: -116px;}
+    70% {left: 250px; top: -120px;}
+    80% {left: 280px;top: -130px;}
+    90% {left: 220px;top: -110px;}
+    100% {left: 200px;top: -100px;}
 }
 
 
